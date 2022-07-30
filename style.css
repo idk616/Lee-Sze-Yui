@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  body {
+    background-color: #ffffff;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: #ffffff;
+  }
+}
+.nav{
+background-color: #FFFFFF;
+position: relative;
+font-size: 25px;
+width: 100%;
+overflow:hidden;
+margin:0px;
+padding: 0px;
+}
+.fa{
+position: static;
+text-decoration: none;
+color: #000000;
+float: left;
+padding-left: 10px;
+padding-top: 10px;
+}
+.nav2{
+padding: 10px;
+position:  sticky;
+float: right;
+color: #000000;
+font-family: 'Poppins', sans-serif;
+text-decoration: none;
+font-size: 20px;
+}
+#header{
+  background-color: #FFFFFF;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+padding: 0px;
+ top: 0;
+ margin-bottom: 0px;
+   width: 100%;
+   vertical-align:top;
+ display:inline-block;
+ margin:0 auto;
+}
+.name{
+    position: absolute;
+    top: 130px;
+    display: inline;
+    font-family: serif;
+    font-family: 'Poppins', sans-serif;
+}
+.me{
+      position: absolute;
+    padding-top: 60px;
+    display: inline;
+    left:30%;
+}
+@media screen and (max-width: 992px) {
+    .name{
+      position: static;
+      display: block;
+      font-family: 'Poppins', sans-serif;
+      }
+    .me{
+      position: static;
+
+      padding-top: 30px;
+    }
+}
+
+
+.aboutme{
+  background-color: #d3d3d3;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding: 40px;
+}
+
+
+
+.blocksdiv1{
+  background-color: #b5b5b5;
+  padding:10px;
+    text-align: center;
+      font-family: 'Poppins', sans-serif;}
+.blocksdiv2{
+  width:100%;
+}
+.blocks1{
+  vertical-align:top;
+display:inline-block;
+margin:0 auto;
+  background-image: url('StickyNote.png');
+  background-repeat: no-repeat;
+  background-attachment: inherit;
+  background-size: cover;
+  height: 300px;
+  width:280px;
+  margin: auto;
+  border-radius: 20px;
+  padding: 20px;
+font-family: 'Caveat', cursive;
+}
+
+@media screen and (max-width: 400px) {
+  .blocks1 {
+    height: 220px;
+    width: 200px;
+  }
+}
+@media screen and (max-width: 400px) {
+.hobbyimg{
+width: 100px;
+}
+}
+.contact{
+padding: 4px;
+margin: 0px;
+background-color: #E0E0E0;
+font-family: 'Poppins', sans-serif;
+  text-align: center;
+  position: relative;
+  bottom: 0px;
+}
+.gallerytitle{
+  padding: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+ .row{
+   text-align: center;
+      justify-content: center;
+align-items: center;
+margin: 0px;
+ }
+.photo{
+  padding: 5px;
+  vertical-align:top;
+display:inline-block;
+margin:0 auto;
+}
